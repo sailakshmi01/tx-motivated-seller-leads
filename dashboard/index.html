@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Texas Multi-County – Motivated Seller Leads</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; }
+    header { background: #1e293b; border-bottom: 1px solid #334155; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.75rem; }
+    header h1 { font-size: 1.25rem; font-weight: 700; color: #f8fafc; }
+    header .meta { font-size: 0.72rem; color: #94a3b8; margin-top: 2px; }
+    .stats-row { display: flex; gap: 1rem; padding: 1.25rem 2rem 0; flex-wrap: wrap; }
+    .stat-card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; padding: 0.85rem 1.25rem; min-width: 130px; }
+    .stat-card .label { font-size: 0.65rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.08em; }
+    .stat-card .value { font-size: 1.65rem; font-weight: 700; color: #38bdf8; margin-top: 3px; }
+    .county-breakdown { padding: 1rem 2rem 0; }
+    .county-breakdown h2 { font-size: 0.72rem; color: #64748b; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.5rem; }
+    .county-chips { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .county-chip { background: #1e293b; border: 1px solid #334155; border-radius: 6px; padding: 0.3rem 0.7rem; font-size: 0.72rem; cursor: pointer; transition: all .15s; }
+    .county-chip:hover { border-color: #38bdf8; color: #38bdf8; }
+    .county-chip.active { background: #0ea5e9; border-color: #0ea5e9; color: #fff; font-weight: 600; }
+    .county-chip .cnt { color: #94a3b8; margin-left: 4px; }
+    .county-chip.active .cnt { color: rgba(255,255,255,0.8); }
+    .toolbar { padding: 1rem 2rem; display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: flex-end; }
+    .toolbar label { font-size: 0.72rem; color: #94a3b8; display: block; margin-bottom: 3px; }
+    .toolbar input, .toolbar select { background: #1e293b; border: 1px solid #334155; color: #e2e8f0; border-radius: 6px; padding: 0.45rem 0.75rem; font-size: 0.82rem; }
+    .toolbar input:focus, .toolbar select:focus { outline: 2px solid #38bdf8; }
+    table { width: 100%; border-collapse: collapse; font-size: 0.78rem; }
+    thead th { background: #1e293b; color: #94a3b8; text-align: left; padding: 0.6rem 0.75rem; border-bottom: 1px solid #334155; white-space: nowrap; cursor: pointer; user-select: none; position: sticky; top: 0; z-index: 1; }
+    thead th:hover { color: #38bdf8; }
+    tbody tr { border-bottom: 1px solid #1a2333; }
+    tbody tr:hover { background: #1e293b; }
+    tbody td { padding: 0.5rem 0.75rem; vertical-align: top; }
+    .score-badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-weight: 700; font-size: 0.72rem; }
+    .score-high { background: #dc2626; color: #fff; }
+    .score-med  { background: #f59e0b; color: #000; }
+    .score-low  { background: #334155; color: #94a3b8; }
+    .flag { display: inline-block; background: #1e3a5f; color: #7dd3fc; border-radius: 4px; padding: 1px 6px; font-size: 0.65rem; margin: 1px; white-space: nowrap; }
+    .county-tag { display: inline-block; background: #1e3a5f22; border: 1px solid #334155; color: #7dd3fc; border-radius: 4px; padding: 1px 5px; font-size: 0.65rem; white-space: nowrap; }
+    .tbl-wrap { overflow-x: auto; padding: 0 2rem 2rem; }
+    a { color: #38bdf8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .empty { text-align: center; padding: 4rem; color: #475569; }
+    .export-btn { background: #0ea5e9; color: #fff; border: none; border-radius: 6px; padding: 0.45rem 1rem; font-size: 0.82rem; cursor: pointer; font-weight: 600; }
+    .export-btn:hover { background: #0284c7; }
+    .row-count { font-size: 0.72rem; color: #64748b; padding: 0.25rem 2rem 0.5rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Texas Multi-County &mdash; Motivated Seller Leads</h1>
+    <div class="meta" id="meta">Loading…</div>
+  </div>
+  <button class="export-btn" onclick="exportCSV()">&#8595; Export CSV</button>
+</header>
+
+<div class="stats-row">
+  <div class="stat-card"><div class="label">Total Leads</div><div class="value" id="s-total">—</div></div>
+  <div class="stat-card"><div class="label">Visible</div><div class="value" id="s-visible">—</div></div>
+  <div class="stat-card"><div class="label">High Score ≥70</div><div class="value" id="s-high">—</div></div>
+  <div class="stat-card"><div class="label">Avg Score</div><div class="value" id="s-avg">—</div></div>
+  <div class="stat-card"><div class="label">With Address</div><div class="value" id="s-addr">—</div></div>
+  <div class="stat-card"><div class="label">Counties Active</div><div class="value" id="s-counties">—</div></div>
+</div>
+
+<div class="county-breakdown">
+  <h2>Filter by county</h2>
+  <div class="county-chips" id="county-chips">
+    <div class="county-chip active" data-county="" onclick="setCounty('')">All Counties<span class="cnt" id="chip-all">0</span></div>
+  </div>
+</div>
+
+<div class="toolbar">
+  <div>
+    <label>Search owner / doc #</label>
+    <input id="q" type="text" placeholder="Search…" oninput="applyFilters()" style="min-width:200px"/>
+  </div>
+  <div>
+    <label>Lead type</label>
+    <select id="f-cat" onchange="applyFilters()">
+      <option value="">All types</option>
+      <option value="LP">Lis Pendens</option>
+      <option value="NOFC">Notice of Foreclosure</option>
+      <option value="TAXDEED">Tax Deed</option>
+      <option value="JUD">Judgment</option>
+      <option value="CCJ">Certified Judgment</option>
+      <option value="DRJUD">Domestic Judgment</option>
+      <option value="LNCORPTX">Corp Tax Lien</option>
+      <option value="LNIRS">IRS Lien</option>
+      <option value="LNFED">Federal Lien</option>
+      <option value="LN">Lien</option>
+      <option value="LNMECH">Mechanic Lien</option>
+      <option value="LNHOA">HOA Lien</option>
+      <option value="MEDLN">Medicaid Lien</option>
+      <option value="PRO">Probate</option>
+      <option value="NOC">Notice of Commencement</option>
+      <option value="RELLP">Release Lis Pendens</option>
+    </select>
+  </div>
+  <div>
+    <label>Min score</label>
+    <select id="f-score" onchange="applyFilters()">
+      <option value="0">Any score</option>
+      <option value="40">40+</option>
+      <option value="50">50+</option>
+      <option value="60">60+</option>
+      <option value="70">70+</option>
+      <option value="80">80+</option>
+    </select>
+  </div>
+  <div>
+    <label>Has address</label>
+    <select id="f-addr" onchange="applyFilters()">
+      <option value="">All</option>
+      <option value="yes">Yes</option>
+    </select>
+  </div>
+</div>
+
+<div class="row-count" id="row-count"></div>
+
+<div class="tbl-wrap">
+  <table id="leads-table">
+    <thead>
+      <tr>
+        <th onclick="sortBy('score')">Score ↕</th>
+        <th onclick="sortBy('filed')">Filed ↕</th>
+        <th onclick="sortBy('county')">County ↕</th>
+        <th onclick="sortBy('cat_label')">Type ↕</th>
+        <th onclick="sortBy('doc_num')">Doc #</th>
+        <th onclick="sortBy('owner')">Owner / Grantor ↕</th>
+        <th onclick="sortBy('grantee')">Grantee</th>
+        <th onclick="sortBy('amount')">Amount ↕</th>
+        <th>Property</th>
+        <th>Mailing</th>
+        <th>Flags</th>
+        <th>Link</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <div class="empty" id="empty-msg" style="display:none">No records match your filters.</div>
+</div>
+
+<script>
+let allRecords = [];
+let sortCol = 'score';
+let sortDir = -1;
+let activeCounty = '';
+
+async function load() {
+  try {
+    const resp = await fetch('records.json?t=' + Date.now());
+    const data = await resp.json();
+    allRecords = data.records || [];
+
+    document.getElementById('meta').textContent =
+      `Source: ${data.source || 'Texas County Public Records'} | ` +
+      `Range: ${data.date_range?.start || '?'} → ${data.date_range?.end || '?'} | ` +
+      `Updated: ${data.fetched_at ? new Date(data.fetched_at).toLocaleString() : 'never'}`;
+
+    document.getElementById('s-total').textContent = (data.total ?? 0).toLocaleString();
+    document.getElementById('s-addr').textContent = (data.with_address ?? 0).toLocaleString();
+
+    const high = allRecords.filter(r => (r.score || 0) >= 70).length;
+    document.getElementById('s-high').textContent = high.toLocaleString();
+
+    const avg = allRecords.length
+      ? Math.round(allRecords.reduce((a, r) => a + (r.score || 0), 0) / allRecords.length)
+      : 0;
+    document.getElementById('s-avg').textContent = avg;
+
+    buildCountyChips(data.county_summary || {});
+    applyFilters();
+  } catch (e) {
+    document.getElementById('meta').textContent = 'Could not load records.json – ' + e.message;
+    document.getElementById('empty-msg').style.display = '';
+    document.getElementById('empty-msg').textContent = 'Error: ' + e.message;
+  }
+}
+
+function buildCountyChips(summary) {
+  const container = document.getElementById('county-chips');
+  container.innerHTML = '';
+
+  const total = allRecords.length;
+  document.getElementById('chip-all');
+
+  const allChip = document.createElement('div');
+  allChip.className = 'county-chip active';
+  allChip.dataset.county = '';
+  allChip.onclick = () => setCounty('');
+  allChip.innerHTML = `All Counties <span class="cnt">${total.toLocaleString()}</span>`;
+  container.appendChild(allChip);
+
+  const countySummary = summary;
+  const activeCounties = Object.entries(countySummary)
+    .filter(([, n]) => n > 0)
+    .sort((a, b) => b[1] - a[1]);
+
+  document.getElementById('s-counties').textContent = activeCounties.length;
+
+  const countyNames = {
+    tyler: 'Tyler', harris: 'Harris', dallas: 'Dallas', tarrant: 'Tarrant',
+    bexar: 'Bexar', travis: 'Travis', collin: 'Collin', hidalgo: 'Hidalgo',
+    denton: 'Denton', fortbend: 'Fort Bend', montgomery: 'Montgomery',
+  };
+
+  activeCounties.forEach(([key, count]) => {
+    const chip = document.createElement('div');
+    chip.className = 'county-chip';
+    chip.dataset.county = key;
+    chip.onclick = () => setCounty(key);
+    chip.innerHTML = `${countyNames[key] || key} <span class="cnt">${count.toLocaleString()}</span>`;
+    container.appendChild(chip);
+  });
+}
+
+function setCounty(key) {
+  activeCounty = key;
+  document.querySelectorAll('.county-chip').forEach(el => {
+    el.classList.toggle('active', el.dataset.county === key);
+  });
+  applyFilters();
+}
+
+function applyFilters() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const cat = document.getElementById('f-cat').value;
+  const minScore = parseInt(document.getElementById('f-score').value) || 0;
+  const addrOnly = document.getElementById('f-addr').value === 'yes';
+
+  let filtered = allRecords.filter(r => {
+    if (activeCounty && r.county_key !== activeCounty) return false;
+    if (cat && r.cat !== cat) return false;
+    if ((r.score || 0) < minScore) return false;
+    if (addrOnly && !r.prop_address && !r.mail_address) return false;
+    if (q) {
+      const haystack = [r.owner, r.doc_num, r.grantee, r.legal, r.cat_label, r.county].join(' ').toLowerCase();
+      if (!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+
+  filtered.sort((a, b) => {
+    let va = a[sortCol] ?? '';
+    let vb = b[sortCol] ?? '';
+    if (typeof va === 'string') va = va.toLowerCase();
+    if (typeof vb === 'string') vb = vb.toLowerCase();
+    if (va < vb) return sortDir;
+    if (va > vb) return -sortDir;
+    return 0;
+  });
+
+  document.getElementById('s-visible').textContent = filtered.length.toLocaleString();
+  document.getElementById('row-count').textContent =
+    filtered.length === allRecords.length
+      ? `Showing all ${filtered.length.toLocaleString()} records`
+      : `Showing ${filtered.length.toLocaleString()} of ${allRecords.length.toLocaleString()} records`;
+
+  render(filtered);
+}
+
+function sortBy(col) {
+  if (sortCol === col) sortDir *= -1;
+  else { sortCol = col; sortDir = -1; }
+  applyFilters();
+}
+
+function scoreBadge(s) {
+  const cls = s >= 70 ? 'score-high' : s >= 50 ? 'score-med' : 'score-low';
+  return `<span class="score-badge ${cls}">${s}</span>`;
+}
+
+function fmtAmt(a) {
+  if (a == null || a === '' || a === 0) return '';
+  return '$' + Number(a).toLocaleString('en-US', { maximumFractionDigits: 0 });
+}
+
+function fmtAddr(addr, city, state, zip) {
+  return [addr, [city, state].filter(Boolean).join(', '), zip].filter(Boolean).join(' ');
+}
+
+function render(records) {
+  const tbody = document.getElementById('tbody');
+  const empty = document.getElementById('empty-msg');
+  if (!records.length) {
+    tbody.innerHTML = '';
+    empty.style.display = '';
+    empty.textContent = allRecords.length === 0
+      ? 'No records yet — run the scraper to collect leads.'
+      : 'No records match your current filters.';
+    return;
+  }
+  empty.style.display = 'none';
+  tbody.innerHTML = records.map(r => {
+    const flags = (r.flags || []).map(f => `<span class="flag">${f}</span>`).join('');
+    const propAddr = fmtAddr(r.prop_address, r.prop_city, r.prop_state, r.prop_zip);
+    const mailAddr = fmtAddr(r.mail_address, r.mail_city, r.mail_state, r.mail_zip);
+    const link = r.clerk_url
+      ? `<a href="${r.clerk_url}" target="_blank" rel="noopener">View ↗</a>`
+      : '';
+    const countyTag = r.county
+      ? `<span class="county-tag">${r.county.replace(' County','')}</span>`
+      : '';
+    return `<tr>
+      <td>${scoreBadge(r.score || 0)}</td>
+      <td style="white-space:nowrap">${r.filed || ''}</td>
+      <td>${countyTag}</td>
+      <td style="white-space:nowrap"><strong>${r.cat_label || r.cat || ''}</strong></td>
+      <td style="white-space:nowrap;font-size:0.7rem">${r.doc_num || ''}</td>
+      <td>${r.owner || ''}</td>
+      <td>${r.grantee || ''}</td>
+      <td style="white-space:nowrap">${fmtAmt(r.amount)}</td>
+      <td style="max-width:160px;font-size:0.72rem">${propAddr}</td>
+      <td style="max-width:160px;font-size:0.72rem">${mailAddr}</td>
+      <td>${flags}</td>
+      <td style="white-space:nowrap">${link}</td>
+    </tr>`;
+  }).join('');
+}
+
+function exportCSV() {
+  const q = document.getElementById('q').value.toLowerCase();
+  const cat = document.getElementById('f-cat').value;
+  const minScore = parseInt(document.getElementById('f-score').value) || 0;
+  const addrOnly = document.getElementById('f-addr').value === 'yes';
+
+  const toExport = allRecords.filter(r => {
+    if (activeCounty && r.county_key !== activeCounty) return false;
+    if (cat && r.cat !== cat) return false;
+    if ((r.score || 0) < minScore) return false;
+    if (addrOnly && !r.prop_address && !r.mail_address) return false;
+    if (q) {
+      const h = [r.owner, r.doc_num, r.grantee, r.legal, r.cat_label, r.county].join(' ').toLowerCase();
+      if (!h.includes(q)) return false;
+    }
+    return true;
+  });
+
+  const headers = ['Score','Filed','County','Type','Doc #','Owner','Grantee','Amount',
+    'Property Address','Property City','Property State','Property Zip',
+    'Mailing Address','Mailing City','Mailing State','Mailing Zip',
+    'Flags','Source URL'];
+
+  const rows = toExport.map(r => [
+    r.score, r.filed, r.county, r.cat_label, r.doc_num, r.owner, r.grantee,
+    r.amount != null ? r.amount : '',
+    r.prop_address, r.prop_city, r.prop_state, r.prop_zip,
+    r.mail_address, r.mail_city, r.mail_state, r.mail_zip,
+    (r.flags || []).join('; '), r.clerk_url,
+  ].map(v => `"${String(v ?? '').replace(/"/g, '""')}"`));
+
+  const csv = [headers.join(','), ...rows.map(r => r.join(','))].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `tx-leads-${new Date().toISOString().slice(0, 10)}.csv`;
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
+load();
+</script>
+</body>
+</html>
