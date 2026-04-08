@@ -1,0 +1,25 @@
+{
+  "fetched_at": "2026-04-08T16:59:28.484379Z",
+  "source": "Texas County Public Records",
+  "date_range": {
+    "start": "2026-04-01",
+    "end": "2026-04-08"
+  },
+  "total": 0,
+  "with_address": 0,
+  "county_summary": {
+    "tyler": 156,
+    "harris": 0,
+    "dallas": 0,
+    "tarrant": 0,
+    "bexar": 0,
+    "travis": 0,
+    "collin": 0,
+    "hidalgo": 0,
+    "denton": 0,
+    "fortbend": 0,
+    "montgomery": 0
+  },
+  "records": [],
+  "county": "Collin County"
+}
