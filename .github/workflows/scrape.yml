@@ -1,0 +1,87 @@
+name: Texas Multi-County Lead Scraper
+
+on:
+  schedule:
+    - cron: "0 7 * * *"
+  workflow_dispatch:
+    inputs:
+      counties:
+        description: "Comma-separated county keys to scrape (default: all)"
+        required: false
+        default: "tyler,harris,dallas,tarrant,bexar,travis,collin,hidalgo,denton,fortbend,montgomery"
+
+jobs:
+  scrape:
+    runs-on: ubuntu-22.04
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('scraper/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Install Python dependencies
+        run: pip install -r scraper/requirements.txt
+
+      - name: Install Playwright Chromium (for JS-heavy portals)
+        run: python -m playwright install --with-deps chromium
+
+      - name: Run scraper
+        env:
+          LOOKBACK_DAYS: "7"
+          COUNTIES: ${{ github.event.inputs.counties || 'tyler,harris,dallas,tarrant,bexar,travis,collin,hidalgo,denton,fortbend,montgomery' }}
+        run: python scraper/fetch.py
+
+      - name: Commit and push updated records
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard/records.json data/ || true
+          git diff --cached --quiet || git commit -m "chore: update Texas leads $(date -u +%Y-%m-%d)"
+          git push
+
+  deploy-pages:
+    needs: scrape
+    runs-on: ubuntu-22.04
+    if: github.ref == 'refs/heads/main'
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - name: Upload dashboard to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
