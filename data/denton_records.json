@@ -1,14 +1,14 @@
 {
-  "fetched_at": "2026-05-04T09:29:54.831744Z",
+  "fetched_at": "2026-05-05T09:16:57.961878Z",
   "source": "Texas County Public Records",
   "date_range": {
-    "start": "2026-04-27",
-    "end": "2026-05-04"
+    "start": "2026-04-28",
+    "end": "2026-05-05"
   },
   "total": 0,
   "with_address": 0,
   "county_summary": {
-    "tyler": 156,
+    "tyler": 161,
     "harris": 0,
     "dallas": 0,
     "tarrant": 0,
