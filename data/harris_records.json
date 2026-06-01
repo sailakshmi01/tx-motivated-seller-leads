@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-05-31T09:49:35.481139Z",
+  "fetched_at": "2026-06-01T12:43:15.243462Z",
   "source": "Texas County Public Records",
   "date_range": {
-    "start": "2026-05-24",
-    "end": "2026-05-31"
+    "start": "2026-05-25",
+    "end": "2026-06-01"
   },
   "total": 0,
   "with_address": 0,
