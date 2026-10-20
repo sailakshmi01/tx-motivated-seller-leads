@@ -1,9 +1,9 @@
 {
-  "fetched_at": "2026-10-19T14:30:41.446994Z",
+  "fetched_at": "2026-10-20T12:38:47.575405Z",
   "source": "Texas County Public Records",
   "date_range": {
-    "start": "2026-10-12",
-    "end": "2026-10-19"
+    "start": "2026-10-13",
+    "end": "2026-10-20"
   },
   "total": 172,
   "with_address": 0,
@@ -24,7 +24,7 @@
     {
       "doc_num": "img20250716_07402561",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "SRB ENTERPRISES LLC",
@@ -52,7 +52,7 @@
     {
       "doc_num": "Colemans Family Mortuary LLC",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "COLEMANS FAMILY MORTUARY LLC",
@@ -80,7 +80,7 @@
     {
       "doc_num": "BAILEY FOU CANYON RANCH PROPERTIES LTD NOTICE OF TRUSTEES SA",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BAILEY FOUR CANYON RANCH PROPERTIES LTD",
@@ -108,7 +108,7 @@
     {
       "doc_num": "TOUSHA Notice of Substitute Trustee Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TOUSHA, MICHAEL AND KELLI",
@@ -135,7 +135,7 @@
     {
       "doc_num": "MYERS Notice of Trustees Sale and Appointment of Substitute ",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MEYERS, JERRY LEE",
@@ -162,7 +162,7 @@
     {
       "doc_num": "2026 NOVEMBER 3 FORECLOSURE-POTTS",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "POTTS",
@@ -189,7 +189,7 @@
     {
       "doc_num": "2026 NOVEMBER 3 FORECLOSURE-TABANNA",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TABANNA",
@@ -216,7 +216,7 @@
     {
       "doc_num": "DAIGLE Notice of Trustees Foreclosure Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "DAIGLE, CURTIS P.",
@@ -243,7 +243,7 @@
     {
       "doc_num": "EDWARDS AND DRIVER Notice of Foreclosure Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "EDWARDS, BRIAN E AND WIFE RACHEL D. DRIVER",
@@ -270,7 +270,7 @@
     {
       "doc_num": "HOY Notice of Foreclosure Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "HOY, NOAH J.",
@@ -297,7 +297,7 @@
     {
       "doc_num": "PERRY NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PERRY, JAYSON RYAN",
@@ -324,7 +324,7 @@
     {
       "doc_num": "Stiger NOTICE OF SUBSTITUTE TRUSTEES DEED0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "STIGER, PATRICIA ANN",
@@ -351,7 +351,7 @@
     {
       "doc_num": "Notice of Trustees Sale - Riley000002",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "LAGRONE, JEFFREY ALAN",
@@ -378,7 +378,7 @@
     {
       "doc_num": "RHODES Notice of Substitute Trustees Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "RHODES, ARLANA LEANN",
@@ -405,7 +405,7 @@
     {
       "doc_num": "Notice of Foreclosure Sale-MCCORD0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MCCORD, ROBERT A.",
@@ -432,7 +432,7 @@
     {
       "doc_num": "MCGEE Notice of Substitute Trustee Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MCGEE, KATHY S.",
@@ -459,7 +459,7 @@
     {
       "doc_num": "SMITH Notice of Default and Foreclosure Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "SMITH, TRAVIS L. AND SHARON K.",
@@ -486,7 +486,7 @@
     {
       "doc_num": "Substitute Trustee Sale Baker0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BAKER, KRISTEN RAE",
@@ -513,7 +513,7 @@
     {
       "doc_num": "Foreclosure IBARRA0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "IBARRA, SULEMA TIFFANY",
@@ -540,7 +540,7 @@
     {
       "doc_num": "Foreclosure MARES0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MARES, CHRISTOPHER EDWARD AND CHRISTOPHER EDWARD MARES II",
@@ -567,7 +567,7 @@
     {
       "doc_num": "Forclosure ANDERSON0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ANDERSON, CHARLES JR",
@@ -594,7 +594,7 @@
     {
       "doc_num": "Foreclosure Miller0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MILLER, APRIL M",
@@ -621,7 +621,7 @@
     {
       "doc_num": "FORCLOSURE-CAPRIO AND SMITH0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "CARPIO, JOSE MANUAL AND SMITH, DESARAE S.",
@@ -648,7 +648,7 @@
     {
       "doc_num": "Forclosure MONCRIEF0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MONCRIEF, DAVID",
@@ -675,7 +675,7 @@
     {
       "doc_num": "FORECLOSURE-MURPHY0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MURPHY, CORA AND JOSEPH",
@@ -702,7 +702,7 @@
     {
       "doc_num": "Forclosure PANINSKI0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PANINSKI, JORDAN ETUX",
@@ -729,7 +729,7 @@
     {
       "doc_num": "Foreclosure Flebbe0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "FLEBBE, JAMES R",
@@ -756,7 +756,7 @@
     {
       "doc_num": "Foreclosure THOMAS EUGENE PARKER0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PARKER, THOMAS EUGENE",
@@ -783,7 +783,7 @@
     {
       "doc_num": "tousha michael",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TOUSHA, MICHAEL",
@@ -810,7 +810,7 @@
     {
       "doc_num": "Foreclosure RICHARD E TEAL ETUX0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TEAL, RICHARD E AND CAROLYN S TEAL",
@@ -837,7 +837,7 @@
     {
       "doc_num": "BAKER STEVEN",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BAKER, STEVEN",
@@ -864,7 +864,7 @@
     {
       "doc_num": "CHRISTOPHER EDWARD MARES",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MARES, CHRISTOPHER",
@@ -891,7 +891,7 @@
     {
       "doc_num": "JOSE U ULLOA",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ULLOA, JOSE",
@@ -918,7 +918,7 @@
     {
       "doc_num": "BRAHAM BARRERA VALLES",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "VALLES, ABRAHAM BARRERA",
@@ -945,7 +945,7 @@
     {
       "doc_num": "young phillip",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "YOUNG, PHILLIP",
@@ -972,7 +972,7 @@
     {
       "doc_num": "Wright Forest C1",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "WRIGHT, FOREST C",
@@ -999,7 +999,7 @@
     {
       "doc_num": "BLEVINS JOSHUA",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BLEVINS, JOSHUA",
@@ -1026,7 +1026,7 @@
     {
       "doc_num": "MALONE GEORGE",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MALONE, GEORGE",
@@ -1053,7 +1053,7 @@
     {
       "doc_num": "WILLIAMS SHONTA",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PERRY KERRY",
@@ -1080,7 +1080,7 @@
     {
       "doc_num": "RILEYJAMES",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "RILEY JAMES M",
@@ -1107,7 +1107,7 @@
     {
       "doc_num": "April Miller",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MILLER, APRIL",
@@ -1134,7 +1134,7 @@
     {
       "doc_num": "REYES SATURINO",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "REYES, SATURINO",
@@ -1161,7 +1161,7 @@
     {
       "doc_num": "BAKER%20STEVEN",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BAKER, STEVEN",
@@ -1188,7 +1188,7 @@
     {
       "doc_num": "TOUSHA ADAM",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TOUSHA, GARY",
@@ -1215,7 +1215,7 @@
     {
       "doc_num": "cook annie",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "COOK, ANNIE",
@@ -1242,7 +1242,7 @@
     {
       "doc_num": "ANNIBAL MORENO",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MORENO, ANNIBAL",
@@ -1269,7 +1269,7 @@
     {
       "doc_num": "Garner Stephanie",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "GARNER, STEPHANIE",
@@ -1296,7 +1296,7 @@
     {
       "doc_num": "Steen James",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "STEEN, JAMES",
@@ -1323,7 +1323,7 @@
     {
       "doc_num": "Guinn David",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "GUINN, DAVID",
@@ -1350,7 +1350,7 @@
     {
       "doc_num": "VICTOR ASHFORD",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ASHFORD, VICTOR V.",
@@ -1377,7 +1377,7 @@
     {
       "doc_num": "Lee Melvin",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "LEE, MELVIN",
@@ -1404,7 +1404,7 @@
     {
       "doc_num": "Placenia Anisley",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PLACENCIA, ANISLEY",
@@ -1431,7 +1431,7 @@
     {
       "doc_num": "WEST JESSICA",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "WEST, JESSICA",
@@ -1458,7 +1458,7 @@
     {
       "doc_num": "SPEAR DONNIE",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "SPEARS, DONNIE",
@@ -1485,7 +1485,7 @@
     {
       "doc_num": "ROWAN LANE PARTNERS LLC",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BEDWELL, TIMOTHY",
@@ -1512,7 +1512,7 @@
     {
       "doc_num": "img20250716_07463008",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TERRELL, MARY BETH",
@@ -1539,7 +1539,7 @@
     {
       "doc_num": "MORENO ANNIBAL GOMEZ",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MORENO, ANNIBAL GOMEZ",
@@ -1566,7 +1566,7 @@
     {
       "doc_num": "Ulloa%20Jose",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ULLOA, JOSE",
@@ -1593,7 +1593,7 @@
     {
       "doc_num": "PERRY JAYSON",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PERRY, JAYSON",
@@ -1620,7 +1620,7 @@
     {
       "doc_num": "Timothy Bedwell and Lekeante Cockerham",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BEDWELL, TIMOTHY",
@@ -1647,7 +1647,7 @@
     {
       "doc_num": "BENNETT AMY",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BENNETT, AMY M.",
@@ -1674,7 +1674,7 @@
     {
       "doc_num": "BENNETT AMY1",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "JONES, EDWARD M",
@@ -1701,7 +1701,7 @@
     {
       "doc_num": "TYINAE FLYNN",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "FLYNN, TYINAE",
@@ -1728,7 +1728,7 @@
     {
       "doc_num": "jayson ryan perry",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PERRY, JAYSON",
@@ -1755,7 +1755,7 @@
     {
       "doc_num": "ROY ALLISON COLE II",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "COLE II, ROY ALLISON",
@@ -1782,7 +1782,7 @@
     {
       "doc_num": "Gates Chester",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "GATES, CHESTER",
@@ -1809,7 +1809,7 @@
     {
       "doc_num": "LAUREN TOBIAS",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TOBIAS, LAUREN",
@@ -1836,7 +1836,7 @@
     {
       "doc_num": "JOSE ULLOA",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ULLOA, JOSE",
@@ -1863,7 +1863,7 @@
     {
       "doc_num": "JEANEEN E PINKERTON",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PINKERTON, JEANEEN E.",
@@ -1890,7 +1890,7 @@
     {
       "doc_num": "Mark Roth",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ROTH MARK E",
@@ -1917,7 +1917,7 @@
     {
       "doc_num": "Jesus Garcia",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "GARCIA, JESUS",
@@ -1944,7 +1944,7 @@
     {
       "doc_num": "Silvestre Castillo",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "CASTILLO, SILVESTRE",
@@ -1971,7 +1971,7 @@
     {
       "doc_num": "Connie Dale Stanford",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "STANDFORD, CONNIE",
@@ -1998,7 +1998,7 @@
     {
       "doc_num": "chandler betty",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "CHANDLER, BETTY",
@@ -2025,7 +2025,7 @@
     {
       "doc_num": "BETTY CHANDLER",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "CHANDLER, BETTY",
@@ -2052,7 +2052,7 @@
     {
       "doc_num": "Gregory Collingwood",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "COLLINGWOOD, GREGORY",
@@ -2079,7 +2079,7 @@
     {
       "doc_num": "Bedwell Cockerham",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BEDWELL, TIMOTHY",
@@ -2106,7 +2106,7 @@
     {
       "doc_num": "Vernon Collins",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "COLLINS JR., VERNON",
@@ -2133,7 +2133,7 @@
     {
       "doc_num": "Oliver Gray",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "GRAY, OLIVER",
@@ -2160,7 +2160,7 @@
     {
       "doc_num": "FORECLOSURE MATONE",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MATONE, ALBERT A.",
@@ -2187,7 +2187,7 @@
     {
       "doc_num": "TELLES CELESTINO",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TELLES, CELESTINO LEE",
@@ -2214,7 +2214,7 @@
     {
       "doc_num": "FLOYD BRIAN C",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "FLOYD, BRIAN C.",
@@ -2241,7 +2241,7 @@
     {
       "doc_num": "HENRY OCAMPO",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "OCAMPO, HENRY",
@@ -2268,7 +2268,7 @@
     {
       "doc_num": "Collins Selena",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "COLLINS, SELENA",
@@ -2295,7 +2295,7 @@
     {
       "doc_num": "COSTA LANCE M",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "COSTA, LANCE M",
@@ -2322,7 +2322,7 @@
     {
       "doc_num": "Foreclosure Jarrett",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "JARRETT, JONATHAN",
@@ -2349,7 +2349,7 @@
     {
       "doc_num": "RANNI S WALLER",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "WALLER, RAINNI S.",
@@ -2376,7 +2376,7 @@
     {
       "doc_num": "Jayson Perry",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PERRY, JAYSON",
@@ -2403,7 +2403,7 @@
     {
       "doc_num": "Cayce Sundday",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "SUNDAY, CAYCE",
@@ -2430,7 +2430,7 @@
     {
       "doc_num": "Baker",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BAKER, STEVEN R",
@@ -2457,7 +2457,7 @@
     {
       "doc_num": "Alderman",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ALDERMAN, QUINTON",
@@ -2484,7 +2484,7 @@
     {
       "doc_num": "Stanford",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "STANFORD, CONNIE",
@@ -2511,7 +2511,7 @@
     {
       "doc_num": "Ramirez",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "RAMIREZ, FABIOLA",
@@ -2538,7 +2538,7 @@
     {
       "doc_num": "Nava",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "NAVA, AVELINO TERAN",
@@ -2565,7 +2565,7 @@
     {
       "doc_num": "JENKIONS DONNIE",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "JENKINS, DONNA",
@@ -2592,7 +2592,7 @@
     {
       "doc_num": "TOUSHA GARY ADAM",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TOUSHA, GARY ALLEN",
@@ -2619,7 +2619,7 @@
     {
       "doc_num": "Nestor%20Delao",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "DELAO, NESTOR",
@@ -2646,7 +2646,7 @@
     {
       "doc_num": "Nestor Delao",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "DELAO, NESTOR",
@@ -2673,7 +2673,7 @@
     {
       "doc_num": "Quinn",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "QUINN, WESLEY",
@@ -2700,7 +2700,7 @@
     {
       "doc_num": "Stout",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "STOUT",
@@ -2727,7 +2727,7 @@
     {
       "doc_num": "Wesley Quinn",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "QUINN, WESLEY",
@@ -2754,7 +2754,7 @@
     {
       "doc_num": "Marie Ann Soignet",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "SOIGNET",
@@ -2781,7 +2781,7 @@
     {
       "doc_num": "Albert A Matone",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MATONE",
@@ -2808,7 +2808,7 @@
     {
       "doc_num": "Jason Murray",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MURRAY",
@@ -2835,7 +2835,7 @@
     {
       "doc_num": "Heather Nischan",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "NISCHAN",
@@ -2862,7 +2862,7 @@
     {
       "doc_num": "Mayra Sidalia Lizarrage Martinez",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MARTINEZ",
@@ -2889,7 +2889,7 @@
     {
       "doc_num": "Coasta - Notice",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "COSTA",
@@ -2916,7 +2916,7 @@
     {
       "doc_num": "Bridgett and Bret Alan Thedford",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "THEDFORD",
@@ -2943,7 +2943,7 @@
     {
       "doc_num": "Ronnie L and Linda G Hughes",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "HUGHES",
@@ -2970,7 +2970,7 @@
     {
       "doc_num": "Matone",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MATONE",
@@ -2997,7 +2997,7 @@
     {
       "doc_num": "2023 SEPTEMBER 5 FORECLOSURE-BOND",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BOND",
@@ -3024,7 +3024,7 @@
     {
       "doc_num": "Rowan Lane - Notice",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BEDWELL",
@@ -3051,7 +3051,7 @@
     {
       "doc_num": "LEIF NOTICE OF TRUSTEES SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "LEIF",
@@ -3078,7 +3078,7 @@
     {
       "doc_num": "MURRAY NOTICE OF FORECLOSURE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MURRAY",
@@ -3105,7 +3105,7 @@
     {
       "doc_num": "FLOYD NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "FLOYD",
@@ -3132,7 +3132,7 @@
     {
       "doc_num": "APRIL 4 PADON Notice of Trustees Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PADON",
@@ -3159,7 +3159,7 @@
     {
       "doc_num": "NOTICE OF FORECLOSURE SALE uloa0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ULOA",
@@ -3186,7 +3186,7 @@
     {
       "doc_num": "KOJAK NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "KOJAK",
@@ -3213,7 +3213,7 @@
     {
       "doc_num": "OBRIEN Notice of Trustee Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "O'BRIEN",
@@ -3240,7 +3240,7 @@
     {
       "doc_num": "PADON Notice of Trustees Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PADON",
@@ -3267,7 +3267,7 @@
     {
       "doc_num": "SCHERRY NOTICE OF SUBSTITUTE TRUSTEES SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "SCHERRY",
@@ -3294,7 +3294,7 @@
     {
       "doc_num": "MCKINLEY AND CASTANEDA NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MCKINLEY AND CASTANE",
@@ -3321,7 +3321,7 @@
     {
       "doc_num": "NEWMAN AND FOFANA NOTICE OF SUBSTITUTE TRUESTEES SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "NEWMAN AND FOFANA",
@@ -3348,7 +3348,7 @@
     {
       "doc_num": "HARTSFIELD NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "HARTSFIELD",
@@ -3375,7 +3375,7 @@
     {
       "doc_num": "LASSITER NOTICE OF ACCELERATION AND NOTICE OF TRUSTEES SALE0",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "LASSITER",
@@ -3402,7 +3402,7 @@
     {
       "doc_num": "CARUSO NOTICE OF SUBSTITUTE TRUSTEES SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "CARUSO",
@@ -3429,7 +3429,7 @@
     {
       "doc_num": "PADON NOTICE OF TRUSTEES SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PADON",
@@ -3456,7 +3456,7 @@
     {
       "doc_num": "ROW NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "ROW",
@@ -3483,7 +3483,7 @@
     {
       "doc_num": "TOBIAS NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "TOBIAS",
@@ -3510,7 +3510,7 @@
     {
       "doc_num": "WHITE NOTICE OF SUBSTITUTE SALE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "WHITE",
@@ -3537,7 +3537,7 @@
     {
       "doc_num": "HAMONDS NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "HAMONDS",
@@ -3564,7 +3564,7 @@
     {
       "doc_num": "DELANO NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "DELANO",
@@ -3591,7 +3591,7 @@
     {
       "doc_num": "POPE NOTICE OF SUBSTITUTE TRUSTEE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "POPE",
@@ -3618,7 +3618,7 @@
     {
       "doc_num": "BOMAR NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BOMER",
@@ -3645,7 +3645,7 @@
     {
       "doc_num": "BOOTH NOTICE OF TRUSTEE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BOOTH",
@@ -3672,7 +3672,7 @@
     {
       "doc_num": "SCARBOROUGH NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "SCARBOROUGH",
@@ -3699,7 +3699,7 @@
     {
       "doc_num": "BOWEN NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BOWEN",
@@ -3726,7 +3726,7 @@
     {
       "doc_num": "CARLOCK NOTICE OF FORECLOSURE SALE 20001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "CARLOCK",
@@ -3753,7 +3753,7 @@
     {
       "doc_num": "HILL NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "HILL",
@@ -3780,7 +3780,7 @@
     {
       "doc_num": "JEFFERSON Notice of Foreclosure0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "JEFFERSON",
@@ -3807,7 +3807,7 @@
     {
       "doc_num": "MATONE Notice of Substitute Trustees Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MATONE",
@@ -3834,7 +3834,7 @@
     {
       "doc_num": "MCCLURE NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MCCLURE",
@@ -3861,7 +3861,7 @@
     {
       "doc_num": "NELSON Notice of Substitute Trustees Sale0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "NELSON",
@@ -3888,7 +3888,7 @@
     {
       "doc_num": "VARING NOTICE OF TRUSTEE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "VARING",
@@ -3915,7 +3915,7 @@
     {
       "doc_num": "WALKER NOTICE OF FORECLOSURE SALE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "WALKER",
@@ -3942,7 +3942,7 @@
     {
       "doc_num": "FORECLOSURE Walker0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "WALKER",
@@ -3969,7 +3969,7 @@
     {
       "doc_num": "NOTICE OF SUBSTITUTE TRUSTEE SALE MUNSON0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MUNSON",
@@ -3996,7 +3996,7 @@
     {
       "doc_num": "NOTICE OF FORECLOSURE SALE Valles and Holeman0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "VALLES AND HOLEMAN",
@@ -4023,7 +4023,7 @@
     {
       "doc_num": "FORECLOSURE SALE CARLOCK0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "CARLOCK",
@@ -4050,7 +4050,7 @@
     {
       "doc_num": "FORECLOSURE SALE GREY0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "GREY",
@@ -4077,7 +4077,7 @@
     {
       "doc_num": "Bergeaux Foreclosure0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "BERGEAUX",
@@ -4104,7 +4104,7 @@
     {
       "doc_num": "Foreclosure Phelps0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PHELPS",
@@ -4131,7 +4131,7 @@
     {
       "doc_num": "Foreclosure Valles0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "VALLES",
@@ -4158,7 +4158,7 @@
     {
       "doc_num": "NOTICE OF FORECLOSURE SALE Hefty0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "HEFTY",
@@ -4185,7 +4185,7 @@
     {
       "doc_num": "February Foreclosures",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "KOJAK",
@@ -4212,7 +4212,7 @@
     {
       "doc_num": "STANFORD FORECLOSURE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "STANFORD",
@@ -4239,7 +4239,7 @@
     {
       "doc_num": "NOTICE OF FORCLOSURE SALE Mares0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "MARES",
@@ -4266,7 +4266,7 @@
     {
       "doc_num": "NOTICE OF FORCLOSURE SALE Perry0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "PERRY",
@@ -4293,7 +4293,7 @@
     {
       "doc_num": "FINLEY FORCLOSURE0001",
       "doc_type": "NOFC",
-      "filed": "2026-10-19",
+      "filed": "2026-10-20",
       "cat": "NOFC",
       "cat_label": "Notice of Foreclosure",
       "owner": "FINLEY",
